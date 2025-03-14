@@ -2,7 +2,7 @@
 
 A Python project for reversing SHA-256 hashed numbers to their original values using a precomputed dictionary of hashes.
 
-## 📖 Project Overview
+## Project Overview 📖 
 
 This project demonstrates how to reverse hashed data using Python's `hashlib` module. It takes a CSV file containing names and SHA-256 hashes, attempts to match the hashes to their original numbers, and produces a human-readable output.
 
@@ -20,7 +20,7 @@ Hossein,6affdae3b3c1aa6aa7689e9b6a7b3225a636aa1ac0025f490cca1285ceaf1487
     "Hossein": 5678,
 }
 ```
-## ⚙️ Features
+## Features ⚙️ 
 - Generates SHA-256 hashes for numbers in the range 0-9999.
 - Matches provided hashes to their corresponding original numbers.
 - Outputs the result in a clean, human-readable JSON format.
@@ -28,7 +28,7 @@ Hossein,6affdae3b3c1aa6aa7689e9b6a7b3225a636aa1ac0025f490cca1285ceaf1487
 
 
 
-## 🚀 How to Run
+## How to Run 🚀 
 
 1. Clone the repository:
 
@@ -46,7 +46,7 @@ python main.py
 ```
 4. Check the output file reversed_data.json for the results.
 
-## 📂 File Structure
+## File Structure 📂 
 
 ```
 hash-reverser/
@@ -57,7 +57,7 @@ hash-reverser/
 └── .gitignore            # Ignore unnecessary files
 ```
 
-## 🔍 How It Works
+## How It Works 🔍 
 1. **Hash Generation**:
 
 - The script generates SHA-256 hashes for numbers between 0 and 9999.
@@ -77,10 +77,10 @@ hash-reverser/
 
 - Saves the results in reversed_data.json.
 
-## 🛠️ Requirements
+## Requirements 🛠️ 
 - Python 3.x
 - No additional dependencies (uses Python's standard library).
 
-## 📄 License
+## License 📄 
 This project is licensed under the [MIT License](LICENSE).
 
