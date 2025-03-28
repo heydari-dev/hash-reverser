@@ -77,7 +77,7 @@ hash-reverser/
 
 - Saves the results in reversed_data.json.
 
-## Requirements 🛠️ 
+## Requirements
 - Python 3.x
 - No additional dependencies (uses Python's standard library).
 
