@@ -81,6 +81,6 @@ hash-reverser/
 - Python 3.x
 - No additional dependencies (uses Python's standard library).
 
-## License 📄 
+## License
 This project is licensed under the [MIT License](LICENSE).
 
